@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+body {
+	background-color: #ffffff;
+	color:black;
+	font-family: arial, sans-serif;
+}
+
+header#cabecalho h1{
+	color: rgba(0,0,0,.8);
+}
+
+
+div#artigos h3{
+	font-size:10px;
+		
+}
+
+article#part_2{
+	background-color:#199ed0;
+	position:relative;
+}
+
+article#part_3{
+   background-color:#ffffff
+}
+article#part_3 hgroup#quadrado_1 {
+	display:block;
+	float
+	right: 20px;
+	width:400px;
+}
+
+header#cabecalho h1 {
+	padding:0px;
+	text-align:center;
+	font-size:25px;
+	margin-bottom:0px;
+}
+
+nav#menu{
+	border-bottom:5px solid #ffffff;
+	display:block;
+}
+nav#menu ul {
+	list-style:none;
+	text-transform:uppercase;
+    text-align:center;	
+}
+nav#menu li {
+	display: inline-block;
+	background-color: #199ed0;
+	padding:15px;
+	margin:0px;
+    margin-bottom:-15px;	
+}
+
+nav#menu li:hover{
+	    background-color:#ffffff ;
+	    color:#199ed0;
+		transition: 2s;
+}
+
+nav#menu a{
+	 color:#ffffff;
+	 text-decoration: none;
+}
+nav#menu a:hover {
+	color:#199ed0;
+
+}
+
+/*
+table#tabela{
+	border: 1px solid black;
+	border-spacing:0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table#tabela td{
+	border: 1px solid black;
+	padding:20px;
+}
+
+section#corpo {
+		display:block;
+		width:600px;
+		float:left;
+		margin-left: 0px;
+	    border-right: 5px solid #199ed0;
+}
+section#corpo hgroup h3{
+	background-color:#199ed0;
+	padding: 5px;
+	margin:5px;
+}
+
+section#corpo hgroup h3{
+    color:#ffffff;
+}
+
+
+aside#lateral {
+	display:block;
+	width:270px;
+	float:right;
+	margin-top:20px;
+	margin-right: 0px;;
+	background-color:rgba(0,0,0,.5);
+
+}
+
+aside#lateral h3{
+	color:#ffffff;
+	padding:5px;
+}
+*/
+footer#rodape{
+	clear:both;
+	border-top: 5px solid #199ed0;
+	display:flex;
+	justify-content:center; 
+	
+}
+footer#rodape figure#instagram{
+ margin:0px auto;
+   
+}
+
+footer#rodape p{
+	margin-top:0px;
+	text-align:center;
+	color:#199ed0;
+}
+footer#rodape a {
+	color: #199ed0;
+	text-decoration:none;
+	text-align:center;
+}
+footer#rodape a:hover {
+	text-decoration:underline;
+}
