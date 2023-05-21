@@ -3,7 +3,7 @@
 body {
 	background-color: #ffffff;
 	color:black;
-	font-family: arial, sans-serif;
+	font-family: Verdana, sans-serif;
 }
 
 header#cabecalho h1{
@@ -12,24 +12,15 @@ header#cabecalho h1{
 
 
 div#artigos h3{
-	font-size:10px;
+	font-size:20px;
+	
 		
 }
+div#artigos p {
 
-article#part_2{
-	background-color:#199ed0;
-	position:relative;
+	text-indent:25px;
 }
 
-article#part_3{
-   background-color:#ffffff
-}
-article#part_3 hgroup#quadrado_1 {
-	display:block;
-	float
-	right: 20px;
-	width:400px;
-}
 
 header#cabecalho h1 {
 	padding:0px;
@@ -69,63 +60,63 @@ nav#menu a:hover {
 	color:#199ed0;
 
 }
-
-/*
-table#tabela{
-	border: 1px solid black;
-	border-spacing:0px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-table#tabela td{
-	border: 1px solid black;
-	padding:20px;
-}
-
-section#corpo {
-		display:block;
-		width:600px;
-		float:left;
-		margin-left: 0px;
-	    border-right: 5px solid #199ed0;
-}
-section#corpo hgroup h3{
+div#parte_2{
 	background-color:#199ed0;
-	padding: 5px;
-	margin:5px;
+	position:relative;
 }
 
-section#corpo hgroup h3{
-    color:#ffffff;
+div#fundo-1 {
+	position:relative;
+	background-color:#ffffff;
+	padding: 20px;
+	
 }
-
-
-aside#lateral {
+div#fundo-1 div#parte_3{
+   width:800px;
+   position:relative;
+   margin: 0 auto 0 auto;
+}
+div#parte_3 article#parte_3_direita {
+	position:relative;
 	display:block;
-	width:270px;
 	float:right;
-	margin-top:20px;
-	margin-right: 0px;;
-	background-color:rgba(0,0,0,.5);
-
+	width:400px;
+	
+}
+div#parte_3 article#parte_3_esquerda{
+	display:block;
+    width:400px;	
 }
 
-aside#lateral h3{
-	color:#ffffff;
-	padding:5px;
+div#fundo-2 {
+	background-color:#199ed0;
+	padding: 20px;
 }
-*/
+div#fundo-2 div#parte_4{
+   width:800px;
+   position:relative;
+   margin: 0 auto 0 auto;
+   color: #ffffff;
+}
+div#parte_4 article#parte_4_direita {
+	position:relative;
+	display:block;
+	float:right;
+	width:400px;
+	margin-top: -300px;  /* Não sei como modificar para a part 4 ter a mesa estrutura/posição que a part 3 */
+	
+}
+div#parte_4 article#parte_4_esquerda{
+	display:block;
+    width:400px;	
+}
+
 footer#rodape{
 	clear:both;
 	border-top: 5px solid #199ed0;
-	display:flex;
-	justify-content:center; 
+	margin: 10px auto 0 auto;
 	
-}
-footer#rodape figure#instagram{
- margin:0px auto;
-   
+	
 }
 
 footer#rodape p{
