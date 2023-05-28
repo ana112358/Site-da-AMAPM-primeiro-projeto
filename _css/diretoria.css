@@ -1,0 +1,40 @@
+@charset "UTF 08";
+
+ul#fotos {
+	list-style:none;
+    Display:block;
+    width:700px;
+	margin: 20px auto;
+}
+ul#fotos li{
+	width:200px;
+	height:200px;
+	float:left;
+	margin:10px;
+	border: 5px solid white;
+	box-shadow:1px 1px 3px rgba(0,0,0,.4);
+}
+ul#fotos li span{
+	opacity:0;
+	background-color: rgba(0,0,0,.4);
+	color:#ffffff;
+	padding:3px;
+	line-height:360px;
+}
+
+ul#fotos li:hover{
+	-webkit-transform: scale(1.5);
+}
+ul#fotos li:hover span{
+	opacity:1;
+}
+
+ul#fotos li#foto01 {
+	background-image: url('../_imagens/foto01.png');
+	background-position:50% 50%;
+	background-size:400px 400px;
+}
+ul#fotos li#foto01:hover{
+	background-position:0px 0px;
+	background-size:200px;
+}
