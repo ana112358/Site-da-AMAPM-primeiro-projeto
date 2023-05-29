@@ -3,22 +3,28 @@
 body {
 	background-color: #ffffff;
 	color:black;
-	font-family: Verdana, sans-serif;
+	font: 14px 'Helvetica Neue', Arial, Helvetica;
 }
-
+header#cabecalho {
+    background-color:#ffffff;
+}
 header#cabecalho h1{
 	color: rgba(0,0,0,.8);
+	
 }
 
 
 div#artigos h3{
-	font-size:20px;
+	font-size:30px;
+	margin:0;
+	text-align:center;
 	
 		
 }
-div#artigos p {
-
-	text-indent:25px;
+div#artigos p{
+	text-indent:20px;
+	font-size: 25px;
+	
 }
 
 
@@ -66,9 +72,10 @@ div#parte_2{
 }
 
 div#fundo-1 {
+	display:block;
 	position:relative;
 	background-color:#ffffff;
-	padding: 20px;
+	padding: 30px;
 	
 }
 div#fundo-1 div#parte_3{
@@ -76,57 +83,87 @@ div#fundo-1 div#parte_3{
    position:relative;
    margin: 0 auto 0 auto;
 }
-div#parte_3 article#parte_3_direita {
+div#parte_3 div#parte_3_direita {
 	position:relative;
 	display:block;
 	float:right;
 	width:400px;
 	
 }
-div#parte_3 article#parte_3_esquerda{
+div#parte_3 div#parte_3_esquerda{
 	display:block;
     width:400px;	
 }
 
-div#fundo-2 {
+div#fundo-3{
+	display:block;
 	background-color:#199ed0;
-	padding: 20px;
+	padding: 30px;
+	
 }
-div#fundo-2 div#parte_4{
+div#fundo-3 div#parte_4{
    width:800px;
    position:relative;
    margin: 0 auto 0 auto;
    color: #ffffff;
 }
-div#parte_4 article#parte_4_direita {
+div#parte_4 div#parte_4_direita {
 	position:relative;
 	display:block;
 	float:right;
 	width:400px;
-	margin-top: -300px;  /* Não sei como modificar para a part 4 ter a mesa estrutura/posição que a part 3 */
+	margin-top: -300px; 	/* Não sei como modificar para a part 4 ter a mesa estrutura/posição que a part 3 */
 	
 }
-div#parte_4 article#parte_4_esquerda{
+div#parte_4 div#parte_4_esquerda{
 	display:block;
     width:400px;	
 }
 
+div#fundo-4{
+	display:block;
+	background-color:#ffffff;
+	padding: 30px;
+	
+}
+div#fundo-4 div#parte_5{
+   width:800px;
+   position:relative;
+   margin: 0 auto 0 auto;
+   color: black;
+}div#parte_5 div#parte_5_direita {
+	position:relative;
+	display:block;
+	float:right;
+	width:400px;
+	margin-top: -300px; 	/* Não sei como modificar para a part 4 ter a mesa estrutura/posição que a part 3 */
+	
+}
+div#parte_5 div#parte_5_esquerda{
+	display:block;
+    width:400px;	
+}
+
+
+
 footer#rodape{
+	font-family:inherit ;
 	clear:both;
-	border-top: 5px solid #199ed0;
 	margin: 10px auto 0 auto;
-	
-	
+	background-color: #d9d9d9;
+	padding: 10px;
+	text-transform:uppercase;
 }
 
 footer#rodape p{
 	margin-top:0px;
 	text-align:center;
-	color:#199ed0;
+	color:rgba(0,0,0,.8);
+	font-weight:bold;
+	font-size:15px;
 }
 footer#rodape a {
-	color: #199ed0;
-	text-decoration:none;
+	color:rgba(0,0,0,.8);
 	text-align:center;
 }
 footer#rodape a:hover {
