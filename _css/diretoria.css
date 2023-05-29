@@ -20,6 +20,7 @@ ul#fotos li span{
 	color:#ffffff;
 	padding:3px;
 	line-height:360px;
+	font-size:10px;
 }
 
 ul#fotos li:hover{
@@ -31,10 +32,59 @@ ul#fotos li:hover span{
 
 ul#fotos li#foto01 {
 	background-image: url('../_imagens/foto01.png');
-	background-position:50% 50%;
-	background-size:400px 400px;
+	background-size:200px 200px;
 }
 ul#fotos li#foto01:hover{
 	background-position:0px 0px;
+	background-size:200px;
+}
+
+ul#fotos li#foto02{
+	background-image: url('../_imagens/foto02.png');
+	
+	background-size:200px 200px;
+}
+ul#fotos li#foto02:hover{
+	background-position:0 0;
+	background-size:200px;
+}
+
+ul#fotos li#foto03{
+	background-image: url('../_imagens/foto03.png');
+	
+	background-size:200px 200px;
+}
+ul#fotos li#foto03:hover{
+	background-position:0 0;
+	background-size:200px;
+}
+
+ul#fotos li#foto04{
+	background-image: url('../_imagens/foto04.png');
+	
+	background-size:200px 200px;
+}
+ul#fotos li#foto04:hover{
+	background-position:0 0;
+	background-size:200px;
+}
+
+ul#fotos li#foto05{
+	background-image: url('../_imagens/foto05.png');
+	
+	background-size:200px 200px;
+}
+ul#fotos li#foto05:hover{
+	background-position:0 0;
+	background-size:200px;
+}
+
+ul#fotos li#foto06{
+	background-image: url('../_imagens/foto06.png');
+	
+	background-size:200px 200px;
+}
+ul#fotos li#foto06:hover{
+	background-position:0 0;
 	background-size:200px;
 }
