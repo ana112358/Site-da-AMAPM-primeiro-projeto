@@ -1,0 +1,16 @@
+@charset "UTF-08";
+
+art1{
+    width: 800px;
+    text-align: center;
+}
+
+art1 h3{
+    font-size: 20px;
+    text-align: left;
+}
+
+art1 p{
+    font-size: 11px;
+    text-indent: 10px;;
+}
