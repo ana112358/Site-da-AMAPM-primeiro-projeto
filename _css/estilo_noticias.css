@@ -2,7 +2,7 @@
 
 article#art1{
     width: 800px;
-    text-align: center;
+    text-align: justify;
 }
 
 article#art1 h3{
@@ -11,6 +11,6 @@ article#art1 h3{
 }
 
 article#art1 p{
-    font-size: 11px;
+    font-size: 15px;
     text-indent: 10px;;
 }
