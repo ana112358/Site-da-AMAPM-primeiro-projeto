@@ -112,7 +112,7 @@ div#parte_4 div#parte_4_direita {
 	display:block;
 	float:right;
 	width:400px;
-	margin-top: -300px; 	/* Não sei como modificar para a part 4 ter a mesa estrutura/posição que a part 3 */
+	margin-top: -450px; 	/* Não sei como modificar para a part 4 ter a mesa estrutura/posição que a part 3 */
 	
 }
 div#parte_4 div#parte_4_esquerda{
@@ -140,6 +140,31 @@ div#fundo-4 div#parte_5{
 	
 }
 div#parte_5 div#parte_5_esquerda{
+	display:block;
+    width:400px;	
+}
+
+
+div#fundo-5{
+	display:block;
+	background-color:#199ed0;
+	padding: 30px;
+	
+}
+div#fundo-5 div#parte_6{
+   width:800px;
+   position:relative;
+   margin: 0 auto 0px auto;
+   color: #ffffff;
+}div#parte_6 div#parte_6_direita {
+	position:relative;
+	display:block;
+	float:right;
+	width:400px;
+	margin-top: -300px; 	/* Não sei como modificar para a part 4 ter a mesa estrutura/posição que a part 3 */
+	
+}
+div#parte_6 div#parte_6_esquerda{
 	display:block;
     width:400px;	
 }
