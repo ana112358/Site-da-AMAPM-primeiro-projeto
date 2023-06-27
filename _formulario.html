@@ -57,18 +57,27 @@
 </fieldset>
 
 <fieldset><legend>Nível de escolaridade</legend>
-	  <p><input type="radio" />Não alfabetizado</p>
-	  <p><input type="radio" />Nível fundamental 1</p>
-	  <p><input type="radio" />Nível fundamental 2</p>
-	  <p><input type="radio" />ensino médio incompleto</p>
-	  <p><input type="radio" />Médio completo</p>
+	  <p><input type="radio" name="escolaridade" value="nao_alfabetizado"/>Não alfabetizado</p>
+	  <p><input type="radio" name="escolaridade" value="fundamental_1"/>Nível fundamental 1</p>
+	  <p><input type="radio" name="escolaridade" value="fundamental_2"/>Nível fundamental 2</p>
+	  <p><input type="radio" name="escolaridade" value="medio_imcompleto"/>ensino médio incompleto</p>
+	  <p><input type="radio" name="escolaridade" value="medio_completo"/>Médio completo</p>
 </fieldset> 
 <fieldset><legend>Outras informações </legend>
   <p>Profissão:<input type="text" name="tprofissao" id="crofissao" size="20" /></p> 
-  <p>Religião: :<input type="text" name="religião" id="creligiao" size="20" />Praticante:<input type="radio" /> Sim <input type="radio" /> Não</p>
-  <p>Tipo sanguíneo:<input type="text" name="tsangue" id="csangue" size="20" />   Doador: <input type="radio" /> Sim <input type="radio" /> Não</p>
+  <p>Religião :<input type="text" name="religião" id="creligiao" size="20" />Praticante:<input type="radio" name="religiao" value="praticante"/> Sim <input type="radio" name="religiao" value="nao_praticante"/> Não</p>
+</fieldset>
+<fieldset><legend>Contribuição mensal </legend>
+  <p>Valor: <select name="contibuicao_mensal" id="contibuicao">
+	<option value="cinco">R$5,00</option>
+	<option value="dez">R$10,00</option>
+  </select></p>
 </fieldset>
 
+ <legend>Observações:</legend></fieldset>
+ <textarea name="observacoes" id="observacoes_id" cols="100" rows="10" placeholder="Digite a sua observação ..."></textarea>
+
+<input type="button" value="Enviar">
 </form>
 </div>
 
