@@ -49,14 +49,15 @@ nav#menu li {
 	background-color: #199ed0;
 	padding:15px;
 	margin:0px;
-    margin-bottom:-15px;	
+    margin-bottom:-15px;
+	font-size:25px;
 }
 
 nav#menu li:hover{
 	    background-color:#ffffff ;
 	    color:#199ed0;
 	    transition: 2s;
-            font-size:60px;
+            font-size:25px;
 }
 
 nav#menu a{
