@@ -4,3 +4,25 @@ div#formulario {
 	width:800px;
 	margin: 0 auto 0 auto;
 }
+label{
+	cursor: pointer;
+	font-size: 20px;
+	padding: 5px;
+
+}
+input[type="text"]{
+	width: 150px;
+	border: 1px solid #cccc;
+	padding: 10px;
+}
+fieldset{
+	border: 1px solid #cccc;
+	background: #f8f8f8;
+}
+
+legend{
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;;
+	
+}
