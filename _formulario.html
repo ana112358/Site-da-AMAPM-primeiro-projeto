@@ -31,44 +31,47 @@
 		</nav>
 </div>
 
+<!--Formulários -->	
 
 <div id="formulario">
-<form>
 
-  <fieldset><legend>Dados Pessoais </legend>
-     <p><label for="cnome">Nome:</label> <input type="text" name="tnome" id="cnome" placeholder="NOME COMPLETO" size="20"/></p>
-	 <p><label>Data de Nascimento:</label><input type="date" name="tdata" id="cdata"/></p>
-	 <p>C.P.F.: <input type="text" name="tcpf" id="ccpf" size="20" placeholder="000.000.000-00"/></p>
-	 <p> Identidade:<input type="text" name="tcpf" id="ccpf" size="20" placeholder="000.000.000"/></p>
-	 <p>ÓRG. EXP.:<input type="text" name="torgexp" id="corgexp" size="20" /></p>
-  </fieldset>
-
-
-<fieldset><legend>Endereço </legend>
-    <p>Bairro:</p>
-	<p>Rua:<input type="text" name="tcpf" id="ccpf" size="20" placeholder="AV. TV. Rua." />nº:<input type="text" size="3"></p>  
-
-</fieldset>
+   <form action="amapm123@gmail.com" method="get">
+        <fieldset><legend>Dados Pessoais </legend>
+            <p><label for="nome">Nome:</label> <input type="text" name="nome" id="nome" placeholder="NOME COMPLETO" /></p>
+	        <p><label for="data">Data de Nascimento:</label><input type="date" name="data" id="data"/></p>
+	        <p> <label for="cpf"> C.P.F.: </label><input type="text" name="cpf" id="cpf"  placeholder="000.000.000-00"/></p>
+	        <p> <label for="identidade">Identidade:</label><input type="text" name="identidade" id="identidade"  placeholder="000.000.000"/></p>
+	        <p><label for="org_exp">ÓRG. EXP.:</label><input type="text" name="org_exp" id="org_exp"  /></p>
+        </fieldset>
 
 
-<fieldset><legend>Contato</legend>
-      <p>Telefone: <input type="text" name="ttelefone" id="ctelefone" size="20" placeholder="(00)00000-0000"></p>
-	  <p>E-mail:</p>
-</fieldset>
+        <fieldset><legend>Endereço </legend>
+            <p><label for="bairro">Bairro:</label><input type="text" name="bairro" id="bairro"  /></p>
+	        <p><label for="rua">Rua:</label>
+				<input type="text" name="rua" id="rua"  placeholder="AV. TV. Rua." />
+				<label for="numero_casa">Nº:</label><input type="text" name="numero_casa" id="numero_casa" >
+			</p>  
+        </fieldset>
+
+
+        <fieldset><legend>Contato</legend>
+            <p><label>Telefone: </label><input type="text" name="ttelefone" id="ctelefone"  placeholder="(00)00000-0000"></p>
+	        <p><label>E-mail:</label></p>
+        </fieldset>
 
 <fieldset><legend>Nível de escolaridade</legend>
-	  <p><input type="radio" name="escolaridade" value="nao_alfabetizado"/>Não alfabetizado</p>
-	  <p><input type="radio" name="escolaridade" value="fundamental_1"/>Nível fundamental 1</p>
-	  <p><input type="radio" name="escolaridade" value="fundamental_2"/>Nível fundamental 2</p>
-	  <p><input type="radio" name="escolaridade" value="medio_imcompleto"/>ensino médio incompleto</p>
-	  <p><input type="radio" name="escolaridade" value="medio_completo"/>Médio completo</p>
+	  <p><input type="radio" name="escolaridade" value="nao_alfabetizado"/><label>Não alfabetizado</label></p>
+	  <p><input type="radio" name="escolaridade" value="fundamental_1"/><label>Nível fundamental 1</label></p>
+	  <p><input type="radio" name="escolaridade" value="fundamental_2"/><label>Nível fundamental 2</label></p>
+	  <p><input type="radio" name="escolaridade" value="medio_imcompleto"/><label>Ensino médio incompleto</label></p>
+	  <p><input type="radio" name="escolaridade" value="medio_completo"/><label>Médio completo</label></p>
 </fieldset> 
 <fieldset><legend>Outras informações </legend>
-  <p>Profissão:<input type="text" name="tprofissao" id="crofissao" size="20" /></p> 
-  <p>Religião :<input type="text" name="religião" id="creligiao" size="20" />Praticante:<input type="radio" name="religiao" value="praticante"/> Sim <input type="radio" name="religiao" value="nao_praticante"/> Não</p>
+  <p><label>Profissão:</label><input type="text" name="tprofissao" id="crofissao"  /></p> 
+  <p><label for="creligiao">Religião :</label><input type="text" name="religião" id="creligiao" /><label>Praticante:</label><input type="radio" name="religiao" value="praticante"/><label>Sim</label><input type="radio" name="religiao" value="nao_praticante"/><label>Não</label></p>
 </fieldset>
 <fieldset><legend>Contribuição mensal </legend>
-  <p>Valor: <select name="contibuicao_mensal" id="contibuicao">
+  <p><label>Valor:</label> <select name="contibuicao_mensal" id="contibuicao">
 	<option value="cinco">R$5,00</option>
 	<option value="dez">R$10,00</option>
   </select></p>
@@ -77,7 +80,7 @@
  <legend>Observações:</legend></fieldset>
  <textarea name="observacoes" id="observacoes_id" cols="100" rows="10" placeholder="Digite a sua observação ..."></textarea>
 
-<input type="button" value="Enviar">
+<input type="submit" value="Enviar">
 </form>
 </div>
 
@@ -94,3 +97,4 @@
 
 </body>
 </html>
+
