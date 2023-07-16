@@ -21,6 +21,7 @@ ul#fotos li span{
 	padding:3px;
 	line-height:360px;
 	font-size:10px;
+	opacity:1;
 }
 
 ul#fotos li:hover{
